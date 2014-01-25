@@ -1,6 +1,7 @@
 {
   "name": "ngExpress-bundles-nvd3",
   "version": "0.0.1",
+  "main": ["./dist/bundle.js", "./dist/bundle.css"],
   "ignore": [
     "src",
     "Gruntfile.js",
@@ -11,5 +12,9 @@
   "dependencies": {
     "d3": "3.0.8",
     "r2d3": "0.2.0"
+  },
+  "devDependencies": {
+    "nvd3": "~1.1.15-beta",
+    "angularjs-nvd3-directives": "~0.0.5-beta"
   }
 }
